@@ -22,3 +22,12 @@ Why ROberta over BERT?
 
 What is maximum sequence length parameter?
 he max of sequence length parameter specifies the maximum number of tokens that can be passed into BERT model with a single sample.
+
+What is a  Epoch?
+An epoch is a full pass through the training data set.
+
+what is Transfer learning?
+It's a machine learning technique where a model is trained on one task and then repurposed on a second related task.
+
+Why fine tuning pretained model?
+Fine tuning is generally faster than pretraining, as the model doesn't have to learn millions or billions of BERT vector representations. Also note that fine tuning is a supervised learning step, as you fit the model using labeled training data. 
